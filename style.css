@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12pt;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+}
+
+#logocabeçalho {
+    width: 100px;
+    padding: 0 60px;
+    margin-top: 9px;
+    /*position: fixed; fixar a barra no topo da pagina*/
+}
+
+#container>header>nav {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#menu {
+    display: flex;
+    padding: 0 60px;
+    /*aumentar o tamnho do click do menu*/
+    gap: 10px;
+}
