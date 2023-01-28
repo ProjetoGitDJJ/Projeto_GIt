@@ -2,26 +2,47 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 12pt;
+    font-size: 13pt;
     font-family: 'Montserrat', sans-serif;
-    background-color: #000000;
+    background-color: #05010e;
+    list-style: none;
+    
+}
+
+
+
+#container>header>nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: #463b3b; */
+    text-decoration: none;
+    color: #ffffff;
+    list-style: none;
+    
+}
+
+#menu {
+    float: right;
+    margin-right: 5px;
+    display: flex;
+    line-height: 70px;
+    padding: 0 90px;
+    gap: 30px;  /*aumentar o tamnho do click do menu*/
+    list-style: none;
+
 }
 
 #logocabeçalho {
     width: 100px;
-    padding: 0 60px;
-    margin-top: 9px;
+    padding: 0 80px;
+    margin-top: 20px;
     /*position: fixed; fixar a barra no topo da pagina*/
 }
-
-#container>header>nav {
-    text-decoration: none;
+#logo {
     color: #ffffff;
+    font-size: 15pt;
+    padding: 0 180px;
+    margin-top: 50px;
+    
 }
 
-#menu {
-    display: flex;
-    padding: 0 60px;
-    /*aumentar o tamnho do click do menu*/
-    gap: 10px;
-}
