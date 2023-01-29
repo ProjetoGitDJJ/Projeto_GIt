@@ -12,7 +12,7 @@ body {
 
 
 #container>header>nav {
-    height: 100px;
+    height: 120px; /* aumentar o tamanho da nav do menu */
     width: 100%;
     /* background-color: #463b3b; */
     text-decoration: none;
@@ -25,19 +25,31 @@ body {
     float: right;
     margin-right: 5px;
     display: flex;
-    line-height: 70px;
+    line-height: 90px; /* maregem do topo do menu */
     padding: 0 90px;
     gap: 30px;  /*aumentar o tamnho do click do menu*/
     list-style: none;
 
 }
 
+a:link{ 
+    text-decoration: none; /*retirar o sublinhado do link*/
+    color: #ffffff;
+}
 
+a:hover{
+    text-decoration: none; /*mudar de cor ao passar mouse por cima*/
+    background-color: rgb(19, 40, 58);
+}
+
+a:visited{
+    color: #ffffff; /* definir a cor depois de clicado */
+}
 
 #logocabeçalho {
-    width: 100px;
+    width: 300px;
     padding: 0 80px;
-    margin-top: 20px;
+    margin-top: 20px; /* maregem do topo da logo */
     /*position: fixed; fixar a barra no topo da pagina*/
 }
 #logo {
