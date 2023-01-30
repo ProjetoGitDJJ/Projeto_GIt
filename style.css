@@ -32,17 +32,17 @@ body {
 
 }
 
-a:link{ 
+.cabecalho>a:link{ 
     text-decoration: none; /*retirar o sublinhado do link*/
     color: #ffffff;
 }
 
-a:hover{
+.cabecalho>a:hover{
     text-decoration: none; /*mudar de cor ao passar mouse por cima*/
     background-color: rgb(19, 40, 58);
 }
 
-a:visited{
+.cabecalho>a:visited{
     color: #ffffff; /* definir a cor depois de clicado */
 }
 
