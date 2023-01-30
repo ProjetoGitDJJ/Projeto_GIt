@@ -49,7 +49,7 @@ a:visited{
 #logocabeçalho {
     width: 300px;
     padding: 0 80px;
-    margin-top: 20px; /* maregem do topo da logo */
+    margin-top: 20px; /* margem do topo da logo */
     /*position: fixed; fixar a barra no topo da pagina*/
 }
 #logo {
@@ -59,4 +59,62 @@ a:visited{
     margin-top: 50px;
     
 }
+
+
+
+/*Pagina inicial no main  */
+
+
+html{
+    scroll-behavior: smooth; /*para lincar o menu a cada pagina */
+}
+
+section{
+    min-height: 100vh;
+}
+
+/* #inicio{
+    background-color: rgb(19, 180, 126);
+} */
+
+#perfil{
+    background-color: rgb(172, 14, 132);
+}
+
+#disciplinas{
+    background-color: rgb(189, 177, 8);
+}
+
+#informacoes{
+    background-color: rgb(172, 14, 14);
+}
+
+#inicio img{
+    width: 550px;
+    height: 450px;
+    padding: 0 50px;
+    
+}
+
+#conteudo {
+    margin: 90px;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 50px;
+}
+
+
+#inicio p{
+    font-size: 50pt;
+    color: #ffffff;
+    
+}
+
+#celular{
+    border-radius: 90px;
+}
+
+
+
+
 
