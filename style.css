@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     font-size: 13pt;
     font-family: 'Montserrat', sans-serif;
-    background-color: #05010e;
+    background-color: #080616;
     list-style: none;
     
 }
@@ -25,7 +25,7 @@ body {
     float: right;
     margin-right: 5px;
     display: flex;
-    line-height: 90px; /* maregem do topo do menu */
+    line-height: 90px; /* margem do topo do menu */
     padding: 0 90px;
     gap: 30px;  /*aumentar o tamnho do click do menu*/
     list-style: none;
@@ -49,20 +49,17 @@ body {
 #logocabeçalho {
     width: 300px;
     padding: 0 80px;
-    margin-top: 20px; /* margem do topo da logo */
+    margin-top: 20px; /* maregem do topo da logo */
     /*position: fixed; fixar a barra no topo da pagina*/
 }
 #logo {
     color: #ffffff;
+    margin-top: 50px;
     font-size: 15pt;
     padding: 0 180px;
-    margin-top: 50px;
     
 }
 
-
-
-/*Pagina inicial no main  */
 
 
 html{
@@ -74,7 +71,7 @@ section{
 }
 
 /* #inicio{
-    background-color: rgb(19, 180, 126);
+    background-color: rgb(167, 201, 190);
 } */
 
 #perfil{
@@ -89,31 +86,57 @@ section{
     background-color: rgb(172, 14, 14);
 }
 
-#inicio img{
-    width: 550px;
-    height: 450px;
-    padding: 0 50px;
-    
-}
-
-#conteudo {
-    margin: 90px;
+.conteudo{
     display: flex;
-    /* align-items: center; */
-    margin-top: 50px;
+    width: 100%;
+    max-width: 1260px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 80px;
+    flex-wrap: wrap;
 }
 
-
-#inicio p{
+.paragrafo{
     font-size: 50pt;
     color: #ffffff;
+    margin-top:10px;
+    overflow-wrap: break-word;
+    padding: 20px;
+}
+
+.btn_inicial>button{
+    display: block;
+    background-color: rgb(6, 161, 58);
+    width: 200px;   /*tamanho da parte verde do botao  */
+    height: 60px;
+    border-radius: 50px;
+    justify-items: flex-start;
+    margin-top: -120px; /*para levar o botao para cima  */
+    margin-right: 890px; /*para trazer o botao para esquerda */
+
+
     
 }
 
-#celular{
-    border-radius: 90px;
+.btn_inicial>button>a:link{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    /* padding: 10px 5px 10px 5px; */
+    font-size: 20px;
+
 }
 
+.btn_inicial>button>a:visited{
+    color: #ffffff; /* definir a cor depois de clicado */
+}
+
+.celular>img{
+    width: 400px; 
+    height: 450px;
+    border-radius: 50px;
+    
+}
 
 
 
