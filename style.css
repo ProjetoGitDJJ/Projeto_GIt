@@ -156,3 +156,8 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.grid_informacoes2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
