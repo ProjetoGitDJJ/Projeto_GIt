@@ -137,6 +137,58 @@ section{
     border-radius: 50px;
     
 }
+
+/* Parte de Joyce - Perfil */
+.pagina2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#paragrafo{
+    width: 50%;
+    padding-bottom: none;
+}
+
+.video{
+    padding-left: 60px;
+}
+#h1_perfil{
+    font-size: 40pt;
+    background: -webkit-linear-gradient(left, rgb(6, 161, 58) 27%, white 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 3%;
+}
+#palavra_chave{
+    width: 50%;
+    font-size: 13px;
+    margin-top: -90px;
+}
+.text_1{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    text-align: justify;
+    color: #ffffff;
+    padding-left: 3%;
+    gap: 18px;
+
+
+}
+#perfil>p{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/* Parte de Danrlei - Informações basicas */
 .titulo_informacoes{
     font-size: 40pt;
     background: -webkit-linear-gradient(left, rgb(6, 161, 58) 27%, white 0%);
