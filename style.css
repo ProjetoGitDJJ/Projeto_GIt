@@ -137,7 +137,27 @@ section{
     border-radius: 50px;
     
 }
+.titulo_informacoes{
+    font-size: 40pt;
+    background: -webkit-linear-gradient(left, rgb(6, 161, 58) 27%, white 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.linha_separadora{
+    background-color: #ffffff;
+}
+#informacoes{
+    background-color:#080616;
+    color: #ffffff;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.grid_informacoes1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-
-
-
+.grid_informacoes2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
