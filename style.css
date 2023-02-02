@@ -75,15 +75,11 @@ section{
 } */
 
 #perfil{
-    background-color: rgb(172, 14, 132);
+    background-color:#080616;
 }
 
 #disciplinas{
     background-color: rgb(189, 177, 8);
-}
-
-#informacoes{
-    background-color: rgb(172, 14, 14);
 }
 
 .conteudo{
@@ -142,8 +138,13 @@ section{
 .pagina2{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 20%;
 
 }
+.inicio_pag2{
+    margin: none;
+}
+
 
 #paragrafo{
     width: 50%;
@@ -159,6 +160,9 @@ section{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-left: 3%;
+    padding-top: 2%;
+    margin-top: -5%;
+    
 }
 #palavra_chave{
     width: 50%;
@@ -180,7 +184,23 @@ section{
 #perfil>p{
     color: #ffffff;
 }
+.formas{
+    display: flex;
+    gap: 30px;
+    color: #ffffff;
+    padding:0 40px;
+}
 
+#fonte_forms{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 40px;
+}
+
+#linha1{
+    color: #ffffff;
+    padding: 0 40px;
+}
 
 
 
