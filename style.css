@@ -75,15 +75,11 @@ section{
 } */
 
 #perfil{
-    background-color: rgb(172, 14, 132);
+    background-color:#080616;
 }
 
 #disciplinas{
     background-color: rgb(189, 177, 8);
-}
-
-#informacoes{
-    background-color: rgb(172, 14, 14);
 }
 
 .conteudo{
@@ -137,6 +133,119 @@ section{
     border-radius: 50px;
     
 }
+
+/* Parte de Joyce - Perfil */
+.pagina2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20%;
+
+}
+.inicio_pag2{
+    margin: none;
+}
+
+
+#paragrafo{
+    width: 50%;
+    padding-bottom: none;
+}
+
+.video{
+    padding-left: 60px;
+}
+#h1_perfil{
+    font-size: 40pt;
+    background: -webkit-linear-gradient(left, rgb(6, 161, 58) 27%, white 0%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    padding-left: 3%;
+    padding-top: 2%;
+    margin-top: -5%;
+    
+}
+#palavra_chave{
+    width: 50%;
+    font-size: 13px;
+    margin-top: -90px;
+}
+.text_1{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    text-align: justify;
+    color: #ffffff;
+    padding-left: 3%;
+    gap: 18px;
+
+
+}
+#perfil>p{
+    color: #ffffff;
+}
+.formas{
+    display: flex;
+    gap: 30px;
+    color: #ffffff;
+    padding:0 40px;
+}
+
+#fonte_forms{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 40px;
+}
+
+#linha1{
+    color: #ffffff;
+    padding: 0 40px;
+}
+
+.formas{
+    display: flex;
+    gap: 30px;
+    color: #ffffff;
+    padding:0 40px;
+}
+
+#fonte_forms{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 40px;
+}
+
+#linha1{
+    color: #ffffff;
+    padding: 0 40px;
+}
+
+.coordenacao{
+    padding: 40px;
+    
+}
+.cordena{
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 210px;
+    width: 100%;
+
+    
+}
+.direita,.esquerda{
+    color: #ffffff;
+}
+#fonte_forms2{
+    color: #ffffff;
+}
+
+
+
+
+
+
+/* Parte de Danrlei - Informações basicas */
 .titulo_informacoes{
     font-size: 40pt;
     background: -webkit-linear-gradient(left, rgb(6, 161, 58) 27%, white 0%);
@@ -149,7 +258,7 @@ section{
 #informacoes{
     background-color:#080616;
     color: #ffffff;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-right: 5%;
 }
 .grid_informacoes1{
