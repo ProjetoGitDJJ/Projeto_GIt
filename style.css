@@ -157,8 +157,8 @@ section{
 #h1_perfil{
     font-size: 40pt;
     background: -webkit-linear-gradient(left, rgb(6, 161, 58) 27%, white 0%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
     padding-left: 3%;
     padding-top: 2%;
     margin-top: -5%;
@@ -202,6 +202,43 @@ section{
     padding: 0 40px;
 }
 
+.formas{
+    display: flex;
+    gap: 30px;
+    color: #ffffff;
+    padding:0 40px;
+}
+
+#fonte_forms{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 40px;
+}
+
+#linha1{
+    color: #ffffff;
+    padding: 0 40px;
+}
+
+.coordenacao{
+    padding: 40px;
+    
+}
+.cordena{
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 210px;
+    width: 100%;
+
+    
+}
+.direita,.esquerda{
+    color: #ffffff;
+}
+#fonte_forms2{
+    color: #ffffff;
+}
 
 
 
@@ -221,7 +258,7 @@ section{
 #informacoes{
     background-color:#080616;
     color: #ffffff;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-right: 5%;
 }
 .grid_informacoes1{
