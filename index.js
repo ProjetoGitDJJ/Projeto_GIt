@@ -10,7 +10,7 @@ const imgSlide = document.querySelector(".slides");
 
 slide1.addEventListener("click", () => {
     const imagem = document.createElement("img");
-    imagem.src = "Tabela 01.png";
+    imagem.src = "tabela01.png";
     imagem.setAttribute("class", "imagem-slide");
     imgSlide.innerHTML = '';
     imgSlide.append(imagem);
@@ -18,7 +18,7 @@ slide1.addEventListener("click", () => {
 
 slide2.addEventListener("click", () => {
     const imagem = document.createElement("img");
-    imagem.src = "Tabela 02.png";
+    imagem.src = "tabela02.png";
     imagem.setAttribute("class", "imagem-slide");
     imgSlide.innerHTML = '';
     imgSlide.append(imagem);
@@ -26,7 +26,7 @@ slide2.addEventListener("click", () => {
 
 slide3.addEventListener("click", () => {
     const imagem = document.createElement("img");
-    imagem.src = "Tabela 03.png";
+    imagem.src = "tabela03.png";
     imagem.setAttribute("class", "imagem-slide");
     imgSlide.innerHTML = '';
     imgSlide.append(imagem);
@@ -34,7 +34,7 @@ slide3.addEventListener("click", () => {
 
 slide4.addEventListener("click", () => {
     const imagem = document.createElement("img");
-    imagem.src = "Tabela 04.png";
+    imagem.src = "tabela04.png";
     imagem.setAttribute("class", "imagem-slide");
     imgSlide.innerHTML = '';
     imgSlide.append(imagem);
@@ -42,15 +42,7 @@ slide4.addEventListener("click", () => {
 
 slide5.addEventListener("click", () => {
     const imagem = document.createElement("img");
-    imagem.src = "Tabela 05.png";
-    imagem.setAttribute("class", "imagem-slide");
-    imgSlide.innerHTML = '';
-    imgSlide.append(imagem);
-});
-
-slide6.addEventListener("click", () => {
-    const imagem = document.createElement("img");
-    imagem.src = "Tabela 05.png";
+    imagem.src = "tabela05.png";
     imagem.setAttribute("class", "imagem-slide");
     imgSlide.innerHTML = '';
     imgSlide.append(imagem);

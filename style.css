@@ -360,3 +360,131 @@ section{
 #carga{
     padding-bottom: 30px;
 }
+
+
+/*rodape*/
+
+footer {
+    background-color: #004b20;
+    height: 220px;
+    justify-content: center;
+
+}
+
+#conteudorodape {
+    justify-content: space-between;
+    padding-right: 330px;
+}
+
+#container>footer>#conteudorodape {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#container>footer>#conteudorodape>#logorodape {
+    align-items: center;
+}
+
+#container>footer>#conteudorodape>#rodapeul {
+    align-items: center;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contato2 {
+    justify-content: center;
+}
+
+#container> footer> #privacidade {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #592519;
+    color: #dac7ae;
+}
+
+#privacidade {
+    height: 50px;
+}
+
+#logo_rodape {
+    width: 400px;
+}
+
+#container>footer>#contato {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#contato>a {
+    width: 100%;
+}
+
+#botão {
+    width: 100%;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #d08000;
+}
+
+#contato {
+    min-width: 100px;
+    align-items: center;
+}
+
+#instagram,
+#facebook,
+#youtube {
+    width: 40px;
+}
+
+#facebook {
+    margin-left: 7px;
+}
+
+#icones {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#end {
+    color: #ffffff;
+    padding: 40px 0 0 200px;
+    margin: 0;
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0 0 0 200px;
+}
+
+li {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3{
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+#conteudorodape{
+    display: flex;
+}
