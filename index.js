@@ -50,7 +50,7 @@ slide5.addEventListener("click", () => {
 
 slide6.addEventListener("click", () => {
     const imagem = document.createElement("img");
-    imagem.src = "tabela05.png";
+    imagem.src = "tabela06.png";
     imagem.setAttribute("class", "imagem-slide");
     imgSlide.innerHTML = '';
     imgSlide.append(imagem);
