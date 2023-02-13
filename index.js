@@ -47,3 +47,11 @@ slide5.addEventListener("click", () => {
     imgSlide.innerHTML = '';
     imgSlide.append(imagem);
 });
+
+slide6.addEventListener("click", () => {
+    const imagem = document.createElement("img");
+    imagem.src = "tabela05.png";
+    imagem.setAttribute("class", "imagem-slide");
+    imgSlide.innerHTML = '';
+    imgSlide.append(imagem);
+});
